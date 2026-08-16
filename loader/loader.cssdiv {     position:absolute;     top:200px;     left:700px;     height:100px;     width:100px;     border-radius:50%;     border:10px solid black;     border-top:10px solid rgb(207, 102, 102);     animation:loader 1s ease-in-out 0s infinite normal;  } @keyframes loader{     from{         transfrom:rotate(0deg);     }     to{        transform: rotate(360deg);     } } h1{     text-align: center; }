@@ -1,0 +1,23 @@
+div {
+    position:absolute;
+    top:200px;
+    left:700px;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    border:10px solid black;
+    border-top:10px solid rgb(207, 102, 102);
+    animation:loader 1s ease-in-out 0s infinite normal;
+
+}
+@keyframes loader{
+    from{
+        transfrom:rotate(0deg);
+    }
+    to{
+       transform: rotate(360deg);
+    }
+}
+h1{
+    text-align: center;
+}
